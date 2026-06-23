@@ -14,7 +14,16 @@ export default defineConfig({
     tailwindcss(),
     wasm(),
     topLevelAwait(), 
-    nodePolyfills()
+    nodePolyfills(
+      {
+        globals: {
+          Buffer: true,
+          global: true,
+          process: true,
+        },
+        protocolImports: true,
+      }
+    )
   ],
 
   resolve: {
