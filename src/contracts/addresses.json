@@ -1,9 +1,14 @@
 {
   "chainId": 11155111,
   "network": "sepolia",
-  "deployedAt": "2026-06-14T12:47:01.867Z",
+  "deployedAt": "2026-06-25T08:04:01.435Z",
   "USDC": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-  "cUSDC": "0x1A73E114017fdA896DeF30433871B0D4AC26ED71",
-  "PaymentRouter": "0x5947a04E494CAa7DF6BCa05c1d6c9e971bA65c00",
-  "DonationVault": "0xc81e348877D1e1F29ab98027Bf2D515cCc2e2B5C"
+  "cUSDC": "0x20E2DC15c2A35955570bD26254AB07838e9D695a",
+  "PaymentRouter": "0xbe9D8bE5334d84BBc43b35f74E7c97Ffc2740A8f",
+  "DonationVault": "0x65c2846BD28aB27F561D2885049C377F9F626738",
+  "deploymentBlocks": {
+    "cUSDC": 11135407,
+    "PaymentRouter": 11135408,
+    "DonationVault": 11135409
+  }
 }
